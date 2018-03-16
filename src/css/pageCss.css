@@ -1,0 +1,136 @@
+.formParent {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 500px;
+	height: 290px;
+	margin: auto;
+	text-align: center;
+	cursor: default;
+}
+
+.formGroup {
+	padding: 20px 30px;
+	border: 1px solid #CCC;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	background: #fff;
+}
+
+.formTitle {
+	font-size: 15px;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
+
+.inputTag {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 15px;
+	border: 1px solid #CCC;
+	box-sizing: border-box;
+}
+
+.loginBtn {
+	width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	border: 0 none;
+	border-radius: 5px;
+	color: #fff;
+	padding: 10px 5px;
+	margin: 10px 5px;
+	cursor: pointer;
+}
+
+.loginBtn:hover {
+	background: #ff9800;
+}
+
+.error {
+	display: flex;
+	color: #ff0000;
+	margin: -10px 0px 10px 0px;
+}
+
+.wrapper {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 500px;
+}
+
+.heading {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+
+.btnWrap {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+.logoutBtn {
+	width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	border: 0 none;
+	border-radius: 5px;
+	color: #fff;
+	padding: 10px 5px;
+	margin: 10px 5px;
+	cursor: pointer;
+}
+
+.logoutBtn:hover {
+	background: #ff9800;
+}
+
+.inputSearch {
+	padding: 10px;
+	width: 500px;
+	border: 1px solid #CCC;
+	box-sizing: border-box;
+	background: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.resultWrapper {
+	width: 500px;
+	border-top: 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+
+.resultContainer {
+	list-style-type: none;
+	margin: 2px;
+	padding: 5px;
+}
+
+.resultList {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 2px;
+	cursor: pointer;
+}
+
+.infoWrapper {
+	border: 1px solid #ccc;
+	margin-top: 50px;
+	padding: 10px;
+}
+
+.infoDetails {
+	margin-bottom: 10px;
+}
